@@ -70,3 +70,5 @@ app.post('/createuser', (req, res, next) => {
 })
 
 app.listen(3000, (err) => console.error(err));
+
+console.log("Server running");
